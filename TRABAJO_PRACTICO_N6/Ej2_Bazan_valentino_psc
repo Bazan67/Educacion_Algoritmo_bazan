@@ -1,0 +1,18 @@
+Algoritmo  Tiempo_De_Descarga
+	
+	Definir gb, mbps, mb, megabits, tiempo Como Real;
+	
+	Escribir "Ingrese el tamaño del archivo en GB:";
+	Leer gb;
+	
+	Escribir "Ingrese la velocidad de descarga en Mbps:";
+	Leer mbps;
+	
+	mb = gb * 1024;
+	megabits = mb * 8;
+	
+	tiempo = megabits / mbps;
+	
+	Escribir "La descarga tardará aproximadamente ", tiempo, " segundos.";
+	
+FinAlgoritmo
